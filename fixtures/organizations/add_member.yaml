@@ -1,0 +1,39 @@
+---
+version: 1
+interactions:
+- request:
+    form:
+      token:
+        - deploygate-apptoken
+      username:
+        - testuser
+      role:
+        - 2
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+    url: https://deploygate.com/api/organizations/organization_name/members
+    method: POST
+  response:
+    body: |
+      {
+        "error": false,
+        "message": "testuser was invited to organization_name"
+      }
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 29 Jun 2016 22:27:25 GMT
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+    status: 200 OK
+    code: 200

@@ -1,0 +1,36 @@
+---
+version: 1
+interactions:
+- request:
+    form:
+      token:
+        - deploygate-apptoken
+      users:
+        - testuser
+      role:
+        - 2
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+    url: https://deploygate.com/api/users/owner/platforms/platform/apps/app_id/members
+    method: POST
+  response:
+    body: |
+      {"error":false,"results":{"invite":"member invite success","added":[{"name":"existing_user","role":2}],"invited":[]}}
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 29 Jun 2016 22:27:25 GMT
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+    status: 200 OK
+    code: 200
