@@ -16,6 +16,7 @@ type Member struct {
 	Email    string `mapstructure:"email"`
 	IconURL  string `mapstructure:"icon_url"`
 	Type     string `mapstructure:"type"`
+	Inviting bool   `mapstructure:"inviting"`
 }
 
 func (c *Client) GetOrganizationMember(i *GetOrganizationMemberInput) (*GetOrganizationMemberResponse, error) {
