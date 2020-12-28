@@ -1,0 +1,10 @@
+github.com/ajg/form v0.0.0-20160822230020-523a5da1a92f h1:zvClvFQwU++UpIUBGC8YmDlfhUrweEy1R1Fj1gu5iIM=
+github.com/ajg/form v0.0.0-20160822230020-523a5da1a92f/go.mod h1:uL1WgH+h2mgNtvBq0339dVnzXdBETtL2LeUXaIv25UY=
+github.com/dnaeon/go-vcr v0.0.0-20161028051908-82c8877b5545 h1:COwH5cas0KkEZwN4EIkt6gt4BJRf7Ls3r60I6owooys=
+github.com/dnaeon/go-vcr v0.0.0-20161028051908-82c8877b5545/go.mod h1:aBB1+wY4s93YsC3HHjMBMrwTj2R9FHDzUr9KyGc8n1E=
+github.com/hashicorp/go-cleanhttp v0.0.0-20160407174126-ad28ea4487f0 h1:2l0haPDqCzZEO160UR5DSrrl8RWptFCoxFsSbRLJBaI=
+github.com/hashicorp/go-cleanhttp v0.0.0-20160407174126-ad28ea4487f0/go.mod h1:JpRdi6/HCYpAwUzNwuwqhbovhLtngrth3wmdIIUrZ80=
+github.com/mitchellh/mapstructure v0.0.0-20161020161836-f3009df150da h1:z1HPq7I0Eajh3On8i7MEfqOurIg+aCllNR3omoF2UNY=
+github.com/mitchellh/mapstructure v0.0.0-20161020161836-f3009df150da/go.mod h1:FVVH3fgwuzCH5S8UJGiWEs2h04kUh9fWfEaFds41c1Y=
+gopkg.in/yaml.v2 v2.0.0-20160928153709-a5b47d31c556 h1:hKXbLW5oaJoQgs8KrzTLdF4PoHi+0oQPgea9TNtvE3E=
+gopkg.in/yaml.v2 v2.0.0-20160928153709-a5b47d31c556/go.mod h1:JAlM8MvJe8wmxCU4Bli9HhUf9+ttbYbLASfIpnQbh74=
