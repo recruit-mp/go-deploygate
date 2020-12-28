@@ -12,8 +12,8 @@ type GetOrganizationMemberResponse struct {
 }
 
 type Member struct {
-	UserName string `mapstructure:"username"`
-	Email    string `mapstructure:"email"`
+	Name     string `mapstructure:"name"`
+	URL      string `mapstructure:"url"`
 	IconURL  string `mapstructure:"icon_url"`
 	Type     string `mapstructure:"type"`
 	Inviting bool   `mapstructure:"inviting"`
